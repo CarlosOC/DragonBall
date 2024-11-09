@@ -12,7 +12,7 @@ Esta aplicación, desarrollada en *Qt* con *C++*, permite interactuar con la API
 
 - *Qt 6.5.2* o superior
 - *Compilador MSVC2019* en un entorno de Windows de 64 bits (ajustar según la configuración del sistema).
-- Conexión a internet para cargar imágenes desde la API.
+- Conexión a internet para cargar imágenes y datos desde la API.
 
 ## Instalación y Ejecución
 
