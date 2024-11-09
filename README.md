@@ -30,7 +30,7 @@ Esta aplicación, desarrollada en *Qt* con *C++*, permite interactuar con la API
 
 ### Capturas de pantalla
 
-| **About** | **Personajes & Transformaciones ** | **Planetas & Habitantes** |
+| **About** | **Personajes & Transformaciones** | **Planetas & Habitantes** |
 |---|---|---|
 | ![About](https://github.com/CarlosOC/DragonBall/blob/main/imagenes/About.png) | ![Personajes_&_Transformaciones](https://github.com/CarlosOC/DragonBall/blob/main/imagenes/Personajes.png) | ![Planetas_&_Habitantes](https://github.com/CarlosOC/DragonBall/blob/main/imagenes/Planetas.png) |
 
