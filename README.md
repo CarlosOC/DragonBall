@@ -4,7 +4,7 @@ Esta aplicación, desarrollada en *Qt* con *C++*, permite interactuar con la API
 ## Funcionalidades
 
 - Conexión con la [Dragon Ball API](https://dragonball-api.com) para obtener información de los personajes.
-- Despliegue de datos detallados del personaje en una interfaz gráfica.
+- Despliegue de datos detallados del personaje y de los planetas de la saga Dragon Ball en una interfaz gráfica.
 - Visualización de la imagen del personaje en un QLabel mediante QNetworkAccessManager.
 - Selección de personajes desde un QComboBox para facilitar la navegación.
 
@@ -22,11 +22,6 @@ Esta aplicación, desarrollada en *Qt* con *C++*, permite interactuar con la API
    cd dragonball-api-app
 2. Abre el proyecto en Qt Creator y asegúrate de seleccionar el kit correcto (Qt 6.5.2 y MSVC2019).
 3. Ejecuta el proyecto. La aplicación debería compilar y ejecutar en Qt Creator sin problemas.
-
-## Archivos Clave
-mainwindow.cpp: Contiene las funciones principales para obtener y procesar los datos de la API.
-mainwindow.ui: Define la interfaz gráfica de la aplicación, incluyendo etiquetas y botones.
-README.md: Archivo de documentación.
 
 ## Uso
 1. Selecciona un personaje desde el QComboBox.
