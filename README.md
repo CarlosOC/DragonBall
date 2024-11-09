@@ -24,7 +24,7 @@ Esta aplicación, desarrollada en *Qt* con *C++*, permite interactuar con la API
 3. Ejecuta el proyecto. La aplicación debería compilar y ejecutar en Qt Creator sin problemas.
 
 ## Uso
-1. Selecciona un personaje desde el QComboBox.
+1. Selecciona un personaje o un planeta desde los QComboBox.
 2. La aplicación mostrará detalles del personaje y su imagen en la interfaz.
 3. Si no se puede cargar la imagen, el terminal mostrará mensajes de depuración que ayudan a identificar posibles errores.
 
