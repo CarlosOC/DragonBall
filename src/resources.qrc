@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resource/style/style.css</file>
+        <file>resource/icono/icon.png</file>
+        <file>resource/imagenes/logo_dragonballapi.png</file>
+        <file>resource/imagenes/Qt_logo.png</file>
+    </qresource>
+</RCC>
