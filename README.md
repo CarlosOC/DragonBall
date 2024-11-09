@@ -32,7 +32,8 @@ Esta aplicación, desarrollada en *Qt* con *C++*, permite interactuar con la API
 
 | **About** | **Personajes** | **Planetas** |
 |---|---|---|
-| ![About](https://github.com/CarlosOC/DragonBall/blob/main/imagenes/About.png) | ![Personajes](https://github.com/CarlosOC/DragonBall/blob/main/imagenes/Personajes.png) | ![Planetas](https://github.com/CarlosOC/DragonBall/blob/main/imagenes/Planetas.png) |
+| ![About](https://github.com/CarlosOC/DragonBall/blob/main/imagenes/About.png) | ![Personajes_&_Transformaciones](https://github.com/CarlosOC/DragonBall/blob/main/imagenes/Personajes.png) | ![Planetas_&_Habitantes](https://github.com/CarlosOC/DragonBall/blob/main/imagenes/Planetas.png) |
+
 ## Contribuciones
 Las contribuciones son bienvenidas. Si encuentras algún problema o tienes alguna mejora, crea un issue o un pull request en este repositorio.
 
