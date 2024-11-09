@@ -28,6 +28,11 @@ Esta aplicación, desarrollada en *Qt* con *C++*, permite interactuar con la API
 2. La aplicación mostrará detalles del personaje y su imagen en la interfaz.
 3. Si no se puede cargar la imagen, el terminal mostrará mensajes de depuración que ayudan a identificar posibles errores.
 
+### Capturas de pantalla
+
+| **About** | **Personajes** | **Planetas** |
+|---|---|---|
+| ![About](https://github.com/CarlosOC/DragonBall/blob/main/imagenes/About.png) | ![Personajes](https://github.com/CarlosOC/DragonBall/blob/main/imagenes/Personajes.png) | ![Planetas](https://github.com/CarlosOC/DragonBall/blob/main/imagenes/Planetas.png) |
 ## Contribuciones
 Las contribuciones son bienvenidas. Si encuentras algún problema o tienes alguna mejora, crea un issue o un pull request en este repositorio.
 
