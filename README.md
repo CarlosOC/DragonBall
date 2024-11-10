@@ -1,13 +1,34 @@
 # Dragon Ball API Application
 Esta aplicación, desarrollada en *Qt* con *C++*, permite interactuar con la API de Dragon Ball para obtener y visualizar información sobre personajes de la serie. Incluye datos como el nombre, género, raza, nivel de poder (ki), y muestra una imagen del personaje en un QLabel. 
 
-## Funcionalidades
+## Características
 
-- Conexión con la [Dragon Ball API](https://dragonball-api.com) para obtener información de los personajes.
-- Despliegue de datos detallados del personaje y de los planetas de la saga Dragon Ball en una interfaz gráfica.
-- Visualización de la imagen del personaje en un QLabel mediante QNetworkAccessManager.
-- Selección de personajes desde un QComboBox para facilitar la navegación.
+- **Conexión a la API de Dragon Ball**: Obtén información detallada de personajes y planetas de la saga.
+- **Interfaz gráfica amigable**: Usa una interfaz intuitiva con QComboBox para la selección de personajes y planetas.
+- **Visualización de imágenes**: Muestra imágenes de los personajes usando QNetworkAccessManager.
+- **Manejo de errores**: Proporciona mensajes de depuración para la resolución de problemas.
 
+## Estructura del Proyecto
+```
+dragonball-api-app/
+├── apirequest.cpp       # Implementación de las funciones para conectarse a la API de Dragon Ball
+├── apirequest.h         # Declaración de la clase para gestionar la conexión a la API
+├── DragonBallApiRequest.pro # Archivo de configuración del proyecto para Qt
+├── main.cpp             # Punto de entrada de la aplicación
+├── mainwindow.cpp       # Implementación de la interfaz gráfica principal
+├── mainwindow.h         # Declaración de la clase MainWindow
+├── mainwindow.ui        # Diseño de la interfaz de usuario en formato .ui de Qt
+├── resources.qrc        # Archivo de recursos que incluye imágenes y otros recursos necesarios
+└── README.md            # Documentación del proyecto
+```
+Cada archivo cumple un rol específico:
+- **apirequest.cpp y apirequest.h**: Gestión de las solicitudes HTTP para obtener datos de la API.
+- **DragonBallApiRequest.pro**: Configuración del proyecto en Qt Creator.
+- **main.cpp**: Inicia la aplicación y muestra la ventana principal.
+- **mainwindow.cpp y mainwindow.h**: Controlan la lógica y los eventos de la interfaz principal.
+- **mainwindow.ui**: Define el diseño visual de la ventana principal.
+- **resources.qrc**: Incluye las rutas de las imágenes y otros archivos usados en la aplicación.
+- **README.md**: Documentación para los desarrolladores y usuarios.
 ## Requisitos
 
 - *Qt 6.5.2* o superior
